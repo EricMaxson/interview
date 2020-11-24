@@ -150,6 +150,7 @@ namespace RIMdevInterview
                 if (cl.IsActive && cl.Registered > registeredAndActive)
                 {
                     nameOfMostRecentRegistered = cl.Name;
+                    registeredAndActive = cl.Registered;
                 }
             }
 
